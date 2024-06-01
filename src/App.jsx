@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import logo from './assets/socialCollage.png';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +9,7 @@ function App() {
     <>
       <nav>
         <div>
-            {/* <img src="./aglin/socialCollage.png" alt="Social College Logo"> */}
+             <img src={logo} alt="logo" />
             <ul>
                 <li>
                     <a href="/"><b>Home</b></a>
